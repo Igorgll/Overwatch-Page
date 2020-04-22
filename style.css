@@ -1,0 +1,52 @@
+body {
+	background-image: url(https://www4.lunapic.com/do-not-link-here-use-hosting-instead/15875283507021764?7540370); ;
+	background-position: absolute; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+h1 {
+	font-family: 'Teko', sans-serif;
+	font-size: 160px;
+	color: grey;
+	letter-spacing: 6px;
+	opacity: 0.9;
+	margin: 0px;
+	text-align: center;
+
+	background: -webkit-linear-gradient(#333, #eee);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.panel {
+	padding: 40px 30px;
+}
+
+.panel li {
+	display: inline-block;
+}
+
+
+img {
+	width: 100px;
+	height: 140px;
+}
+
+.panel a {
+	color: rgb(0, 10, 28);
+	text-decoration: none;
+	padding: 20px;
+}
+
+
+figcaption {
+	background-color: white;
+	border-radius: 3px;
+}
+
+a:hover {
+	text-decoration: underline; 
+}
