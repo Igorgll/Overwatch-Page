@@ -1,7 +1,17 @@
 body {
-	background-color: rgb(254, 212, 191);
+	background-color: rgb(199, 226, 235);
+
 	margin: 0;
 	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+button {
+	border: none;
 }
 
 header {
@@ -11,6 +21,10 @@ header {
 
 header h1 {
 	text-align: center;
+}
+
+.container {	
+	background-color: rgb(254, 212, 191);
 }
 
 .container h1 {
@@ -37,10 +51,87 @@ header h1 {
 
 .tab {
 	position: absolute;
-	margin top: 50%;
+	margin-top: 50%;
 	margin-right: 0;  
-	margin left: auto;
+	margin-left: auto;
 	transform: translate(-50% -50% );
 	display: flex;
 	background: red;
+}
+
+footer {
+	background-color: dimgray;
+}
+
+.footer-compra {
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	
+	width: 100%;
+	height: 105px;
+
+	background-color: rgb(27, 27, 27);
+	border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+	border-top: 5px solid rgba(128, 128, 128, 0.6) ;
+
+}
+
+.buttonCompra {
+	background-color: #ff9c00;
+	
+	color: white;
+	font-size: 19px;
+	font-weight: bold;
+
+	width: 231px;
+	height: 39px;
+	
+	border-radius: 2px;
+}
+
+.buttonCompra:hover {	
+	background-color: #f7a82b;
+}
+
+.footer-midia {
+	margin-top: -18px;
+
+	text-align: center;
+	
+	font-weight: bold;
+
+	width: 100%;
+	height: 126px;
+	background-color: rgb(27, 27, 27);	
+}
+
+.footer-midia p {
+	padding-top: 20px;
+	color: white;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.footer-midia li {
+	margin: 0 10px;
+	margin-top: -17px;
+	display: inline-block;
+
+	color:white;
+
+	list-style: none;
+	
+	width: 54px;
+	height: 54px;
+}
+
+.footer-midia img {
+	position: relative;
+	max-width: 100%;
+}
+
+.footer-midia .instagram {
+	width: 43px;
+	height: 43px;
 }
