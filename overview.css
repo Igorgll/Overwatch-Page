@@ -1,0 +1,46 @@
+body {
+	background-color: rgb(254, 212, 191);
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: red;
+	padding: 50px;
+}
+
+header h1 {
+	text-align: center;
+}
+
+.container h1 {
+	text-align: center;
+	padding: 50px;
+}
+
+/*.header p {
+	font-family: 'Teko', sans-serif;
+	color: white;
+	width: 10px;
+	font-size: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}*/
+
+.character img {
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.tab {
+	position: absolute;
+	margin top: 50%;
+	margin-right: 0;  
+	margin left: auto;
+	transform: translate(-50% -50% );
+	display: flex;
+	background: red;
+}
