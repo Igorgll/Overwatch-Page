@@ -6,13 +6,6 @@ body {
 	padding: 0;
 }
 
-header {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-}
-
 header h1 {
 	color: #0a0b0d;
 	font-size: 120px;

@@ -1,137 +1,178 @@
 body {
-	background-color: rgb(199, 226, 235);
-
-	margin: 0;
-	padding: 0;
+	background-color: deepskyblue;
+	font-family: 'Teko', sans-serif;
 }
 
-a {
-	text-decoration: none;
+.container {
+	background-color: rgb(31, 66, 95);
+	position: relative;
+	left: 30px;
+	width: 60%;
+	transform: translateX(0%) translateY(0%);
+	margin-bottom: 50px;
+}
+
+.overview {
+	width: 100%;
+	height: 150px;
+	margin-bottom: -35px;
+}
+
+.overview h1 {
+	color: white;
+	font-size: 100px;
+	text-align: center;
+}
+
+.role {
+	margin-bottom: -75px;
+	margin-left: 15px;
+	border-radius: 3px;
+}
+
+.role h1 {
+	font-size: 40px;
+	margin-left: 15px;
 	color: black;
 }
 
-button {
-	border: none;
+.support {
+	width: 100%;
+	height: 200px;
+	margin-left: 15px;
+	border-radius: 3px;
 }
 
-header {
-	background-color: red;
-	padding: 50px;
-}
-
-header h1 {
-	text-align: center;
-}
-
-.container {	
-	background-color: rgb(254, 212, 191);
-}
-
-.container h1 {
-	text-align: center;
-	padding: 50px;
-}
-
-/*.header p {
-	font-family: 'Teko', sans-serif;
+.support h1 {
+	margin-left: 15px;
 	color: white;
-	width: 10px;
 	font-size: 70px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
-}*/
-
-.character img {
-	display: block;
-	margin-left: auto;
-	margin-right: 0;
 }
 
-.tab {
-	position: absolute;
-	margin-top: 50%;
-	margin-right: 0;  
-	margin-left: auto;
-	transform: translate(-50% -50% );
-	display: flex;
-	background: red;
+.difficulty {
+	float: right;
+	margin-top: -270px;
+	width: 50%;
+	height: 150px;
 }
 
-footer {
-	background-color: dimgray;
-}
-
-.footer-compra {
-	display: flex;
-    align-items: center;
-	justify-content: center;
-	
-	width: 100%;
-	height: 105px;
-
-	background-color: rgb(27, 27, 27);
-	border-bottom: 2px solid rgba(128, 128, 128, 0.2);
-	border-top: 5px solid rgba(128, 128, 128, 0.6) ;
-
-}
-
-.buttonCompra {
-	background-color: #ff9c00;
-	
-	color: white;
-	font-size: 19px;
-	font-weight: bold;
-
-	width: 231px;
-	height: 39px;
-	
-	border-radius: 2px;
-}
-
-.buttonCompra:hover {	
-	background-color: #f7a82b;
-}
-
-.footer-midia {
-	margin-top: -18px;
-
+.difficulty p {
 	text-align: center;
-	
-	font-weight: bold;
-
-	width: 100%;
-	height: 126px;
-	background-color: rgb(27, 27, 27);	
+	color: black;
+	width: 10px;
+	font-size: 40px;
 }
 
-.footer-midia p {
-	padding-top: 20px;
+.description {
+	background-color: rgb(31, 49, 78);
+	height: 200px;
 	color: white;
-	font-size: 18px;
-	font-style: italic;
+	margin-top: -140px;
+	margin-bottom: 80px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 3px;
 }
 
-.footer-midia li {
-	margin: 0 10px;
-	margin-top: -17px;
-	display: inline-block;
-
-	color:white;
-
-	list-style: none;
-	
-	width: 54px;
-	height: 54px;
+.description p {
+	color: white;
+	margin-left: 40px;
+	font-size: 30px;
 }
 
-.footer-midia img {
-	position: relative;
-	max-width: 100%;
+.abilities {
+	margin-top: -70px;
 }
 
-.footer-midia .instagram {
-	width: 43px;
-	height: 43px;
+.abilities h1 {
+	margin-left: 15px;
+	font-size: 70px;
+	color: white;
+}
+
+.biotic-rifle {
+	background-color: rgb(31, 49, 78);
+	height: 150px;
+	margin-top: -50px;
+	margin-bottom: 70px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 3px;
+}
+
+.biotic-rifle h1 {
+	margin-left: 15px;
+	color: white;
+}
+
+.biotic-rifle p {
+	color: white;
+	margin-top: -25px;
+	margin-left: 15px;
+	font-size: 25px;
+}
+
+.sleep-dart {
+	background-color: rgb(31, 49, 78);
+	height: 120px;
+	margin-top: -65px;
+	margin-bottom: 70px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 3px;
+}
+
+.sleep-dart h1 {
+	margin-left: 15px;
+	color: white;
+}
+
+.sleep-dart p {
+	color: white;
+	margin-top: -25px;
+	margin-left: 15px;
+	font-size: 25px;
+}
+
+.biotic-grenade {
+	background-color: rgb(31, 49, 78);
+	height: 180px;
+	margin-top: -65px;
+	margin-bottom: 70px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 3px;
+}
+
+.biotic-grenade h1 {
+	margin-left: 15px;
+	color: white;
+}
+
+.biotic-grenade p {
+	color: white;
+	margin-top: -25px;
+	margin-left: 15px;
+	font-size: 25px;
+}
+
+.nano-boost {
+	background-color: rgb(31, 49, 78);
+	height: 120px;
+	margin-top: -65px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 3px;
+}
+
+.nano-boost h1 {
+	margin-left: 15px;
+	color: white;
+}
+
+.nano-boost p {
+	color: white;
+	margin-top: -25px;
+	margin-left: 15px;
+	font-size: 25px;
 }
