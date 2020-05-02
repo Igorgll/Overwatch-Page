@@ -1,32 +1,39 @@
 body {
-	background-color: rgb(199, 226, 235);
+	background-color: rgba(11, 80, 71, 0.795);
 	background-position: absolute;
-	background-position: absolute;
-	
 	font-family: 'Teko', sans-serif;
-	
 	margin: 0;
 	padding: 0;
 }
 
+.container{
+	padding-top: 2%;
+	margin-left: auto;
+    margin-right: auto;
+	width: 80%;
+}
+
+header{
+	margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
 header h1 {
 	color: #0a0b0d;
-	opacity: 0.9;
-	
 	font-size: 120px;
-	letter-spacing: 6px;
-
-	margin: 0px;
+	letter-spacing: 5px;
+	opacity: 0.9;	
+	margin: 0 auto;
+	margin-bottom: -25px;
 }
 
 header p {
 	font-family: 'Rubik', sans-serif;
-	font-size: 25px;
-	
 	color: #0a0b0d;
+	font-size: 25px;
 	opacity: 0.9;
-	
-	margin: 0px;
+	margin: 0 auto;
 }
 
 a {
@@ -34,47 +41,34 @@ a {
 	text-decoration: none;
 }
 
-button {
-	border: none;
-}
-
 .panel {
 	display: flex;
 	flex-wrap: wrap;
-
-	align-items: center;
-	justify-content: center;
-
-	margin: 0 3%;
+	margin-left: auto;
+    margin-right: auto;
+	width: 80%;
 }
 
 .heroes {
-	background-color: #ccd8ff;
+	background-color: rgb(90, 112, 109);
 	border: 2px solid rgb(255, 255, 255);
-
 	margin: 0 7px 7px 0;
 	position: relative;
 	height: 311px;
 }
 
 .heroes:hover {
-	transform: scale(1.2);
-	transition: 0.3s;
-
-	top: -1.5rem;
-	right: -0.6rem;
-	left: -0.6rem;
-	bottom: -1rem;
+	transform: scale(1.08);
+	transition: 0.58s;
+	top: -0.5rem;	
 }
 
 .heroes figure {
-	text-align: center;
 	margin: 0;
 }
 
 .heroes img {
 	position: relative;
-	
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -84,50 +78,42 @@ figcaption {
 	font-style: italic;
 	background-color: rgba(40, 53, 79, .9);
 	display: block;
-
 	height: 15%;
-
 	padding-top: 17%;
-
 	text-align: center;
 	font-size: 200%;
-
 	position: absolute;
-
 	bottom: 0;
 	left: 0;
-
 	width: 100%;
 }
 
-footer {
-	margin-top: 80px;
-	width: 100%;
-	
-	background-color: dimgray;
-}
-
-.tank-icon,
-.damage-icon,
-.support-icon {
+.tank-icon, .damage-icon, .support-icon {
 	list-style: none;
 	position: absolute;
 	max-width: 20%;
-	
 	bottom: 30%;
 	left: 0;
 	width: 100%;
 }
 
+/* Rodapé e derivados abaixo */
+
+button {
+	border: none;
+}
+
+footer {
+	margin-top: 80px;
+	width: 100%;
+}
 
 .footer-compra {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	width: 100%;
 	height: 105px;
-
 	background-color: rgb(27, 27, 27);
 	border-bottom: 2px solid rgba(128, 128, 128, 0.2);
 	border-top: 5px solid rgba(128, 128, 128, 0.6);
@@ -135,56 +121,56 @@ footer {
 
 .buttonCompra {
 	background-color: rgb(236, 154, 21);
-
-	color: white;
+	color: rgb(235, 235, 235);
 	font-size: 19px;
 	font-weight: bold;
-
 	width: 231px;
 	height: 39px;
-
-	border-radius: 3px;
+	border-radius: 5px;
+	text-shadow: 0 0 3px #333;
 }
 
 .buttonCompra:hover {
 	background-color: orange;
-	transition: 0.3s;
+	box-shadow: inset 0 0 12px #333;
+	font-size: 112%;
+	border: 1.15px solid #666;
+	box-sizing: border-box;
+	transition: all 0.2s;
+	cursor: pointer;
 }
 
 .footer-midia {
-	margin-top: -18px;
-
+	margin-top: -28px;
 	text-align: center;
-
 	font-weight: bold;
-
 	width: 100%;
 	height: 126px;
 	background-color: rgb(27, 27, 27);
 }
 
 .footer-midia p {
-	padding-top: 20px;
-	color: white;
-	
-	font-size: 20px;
+	padding-top: 13px;
+	color: rgb(235, 235, 235);
+	font-size: 28px;
 	font-style: italic;
 }
 
-.footer-midia li {
-	margin: 0 10px;
-	margin-top: -17px;
-	display: inline-block;
-
-	color: white;
-
-	list-style: none;
-
+.footer-midia img {
 	width: 54px;
 	height: 54px;
-}
-
-.footer-midia img {
 	position: relative;
 	max-width: 100%;
+	background-color: rgb(160, 160, 160);
+	border: 2px solid rgb(160, 160, 160);
+	border-radius: 54%;
+	box-sizing: border-box;
+	margin: -17px 10px;
+}
+
+.footer-midia img:hover {
+	transform: scale(1.15);
+	transition: 0.2s;
+	border: 2.7px solid rgb(160, 160, 160);
+	box-sizing: border-box;
 }
