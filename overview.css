@@ -20,7 +20,11 @@ h3 {
 	padding-top: 0;
 	margin: 2%;
 	position: relative;
+<<<<<<< HEAD
 	width: 50%;
+=======
+	width: 35%;
+>>>>>>> 876f881d6feecb7827c32943433008429f595f29
 	height: 100%;
 	transform: translateX(0%) translateY(0%);
 }
