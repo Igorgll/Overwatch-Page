@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: rgb(106, 173, 212);
 	font-family: 'Teko', sans-serif;
 
 	margin: 0;
@@ -9,6 +9,153 @@ body {
 h3 {
 	font-size: 40px;
 }
+
+a {
+	color: rgb(0, 10, 28);
+	text-decoration: none;
+}
+
+/* Config Menu */
+
+header {
+	color: #333;
+}
+
+.menu-overwatch,
+.menu-blizzard {
+	display: flex;
+	justify-content: center;
+}
+
+	/* Menu da Blizzard */
+
+.nav-blizzard {
+	font-family: FuturaNo2D,Century Gothic,AppleGothic,sans-serif;
+	background-color: black;
+	display: flex;
+	height: 40px;
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.menu-nav-blizzard {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.menu-nav-blizzard li {
+	font-size: 15px;
+	display: inline;
+	text-decoration: none;
+}
+
+.menu-left-blizzard,
+.menu-rigth-blizzard {
+	margin: auto 0;
+	font-weight: 400;
+}
+
+.menu-rigth-blizzard li,
+.menu-left-blizzard li {
+	color: white;
+}
+
+.menu-rigth-blizzard li {
+	padding-left: 30px;
+}
+.menu-left-blizzard li {
+	padding-right: 30px;
+}
+
+.menu-logo-blizzard {
+	margin-top: 3px;
+	width: 60px;
+	height: 100%;
+}
+
+
+	/* Menu da Overwatch */
+.nav-overwatch {
+	font-family: FuturaNo2D,Century Gothic,AppleGothic,sans-serif;
+	background-color: white;
+	display: flex;
+	position: relative;
+	margin-top: 2%;
+	height: 50px;
+	width: 80%;
+}
+
+.menu-nav-overwatch {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.menu-nav-overwatch li {
+	font-size: 14px;
+	display: inline;
+	text-decoration: none;
+}
+
+.menu-left,
+.menu-rigth {
+	padding: 0;
+	margin: auto 0;
+	font-weight: 700;
+}
+
+.menu-left li, 
+.menu-rigth li {
+	color: #333;
+	padding: 1% 30px;
+}
+
+.menu-left li{
+	border-right: 2px solid #333;
+}
+
+.menu-rigth li {
+	border-left: 2px solid #333;
+}
+
+.menu-nav-overwatch .menu-rigth li {
+	padding: 3% 30px;
+}
+
+.menu-logo {
+	background-color: #333;
+	margin-right: 2px;
+	width: 54px;
+	height: 50px;
+}
+
+.buttonBuyGo {
+	background-color: rgb(236, 154, 21);
+	color: rgb(235, 235, 235);
+	font-size: 120%;
+	font-weight: bold;
+	width: 180px;
+	height: auto;
+	margin-right: 0;
+	margin-left: 2px;
+	text-shadow: 0 0 3px #333;
+}
+
+.buttonBuyGo:hover {
+	background-color: orange;
+	box-shadow: inset 0 0 12px #333;
+	font-size: 112%;
+	border: 1px solid #666;
+	box-sizing: border-box;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+/* All Container */
 
 .container {
 	display: flex;
@@ -272,8 +419,10 @@ div .description p {
 
 .character {
 	width: 35%;
-	margin: 2%;
-	background-color: white;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 5%;
 }
 
 .character img {

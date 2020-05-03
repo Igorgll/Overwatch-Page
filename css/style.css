@@ -6,47 +6,196 @@ body {
 	padding: 0;
 }
 
-.container{
-	padding-top: 2%;
-	margin-left: auto;
-    margin-right: auto;
-	width: 80%;
-}
-
-header{
-	margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
-
-header h1 {
-	color: #0a0b0d;
-	font-size: 120px;
-	letter-spacing: 5px;
-	opacity: 0.9;	
-	margin: 0 auto;
-	margin-bottom: -25px;
-}
-
-header p {
-	font-family: 'Rubik', sans-serif;
-	color: #0a0b0d;
-	font-size: 25px;
-	opacity: 0.9;
-	margin: 0 auto;
-}
-
 a {
 	color: rgb(0, 10, 28);
 	text-decoration: none;
 }
 
+/* Config Menu */
+
+header {
+	color: #333;
+}
+
+.menu-overwatch,
+.menu-blizzard {
+	display: flex;
+	justify-content: center;
+}
+
+	/* Menu da Blizzard */
+
+.nav-blizzard {
+	font-family: FuturaNo2D,Century Gothic,AppleGothic,sans-serif;
+	background-color: black;
+	display: flex;
+	height: 40px;
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.menu-nav-blizzard {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.menu-nav-blizzard li {
+	font-size: 15px;
+	display: inline;
+	text-decoration: none;
+}
+
+.menu-left-blizzard,
+.menu-rigth-blizzard {
+	margin: auto 0;
+	font-weight: 400;
+}
+
+.menu-rigth-blizzard li,
+.menu-left-blizzard li {
+	color: white;
+}
+
+.menu-rigth-blizzard li {
+	padding-left: 30px;
+}
+.menu-left-blizzard li {
+	padding-right: 30px;
+}
+
+.menu-logo-blizzard {
+	margin-top: 3px;
+	width: 60px;
+	height: 100%;
+}
+
+
+	/* Menu da Overwatch */
+.nav-overwatch {
+	font-family: FuturaNo2D,Century Gothic,AppleGothic,sans-serif;
+	background-color: white;
+	display: flex;
+	position: relative;
+	margin-top: 2%;
+	height: 50px;
+	width: 80%;
+}
+
+.menu-nav-overwatch {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.menu-nav-overwatch li {
+	font-size: 14px;
+	display: inline;
+	text-decoration: none;
+}
+
+.menu-left,
+.menu-rigth {
+	padding: 0;
+	margin: auto 0;
+	font-weight: 700;
+}
+
+.menu-left li, 
+.menu-rigth li {
+	color: #333;
+	padding: 1% 30px;
+}
+
+.menu-left li{
+	border-right: 2px solid #333;
+}
+
+.menu-rigth li {
+	border-left: 2px solid #333;
+}
+
+.menu-nav-overwatch .menu-rigth li {
+	padding: 3% 30px;
+}
+
+.menu-logo {
+	background-color: #333;
+	margin-right: 2px;
+	width: 54px;
+	height: 50px;
+}
+
+.buttonBuyGo {
+	background-color: rgb(236, 154, 21);
+	color: rgb(235, 235, 235);
+	font-size: 120%;
+	font-weight: bold;
+	width: 180px;
+	height: auto;
+	margin-right: 0;
+	margin-left: 2px;
+	text-shadow: 0 0 3px #333;
+}
+
+.buttonBuyGo:hover {
+	background-color: orange;
+	box-shadow: inset 0 0 12px #333;
+	font-size: 112%;
+	border: 1px solid #666;
+	box-sizing: border-box;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+/* All Container */
+
+.container {
+	margin-top: 5%;
+	margin-left: auto;
+    margin-right: auto;
+	width: 80%;
+}
+
+/* Config of Need a Hero? */
+
+.need-hero{
+	margin-left: auto;
+    margin-right: auto;
+	width: 90%;
+	color: #333;
+}
+
+.need-hero h1 {	
+	font-style: italic;
+	font-size: 84px;
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 0;
+	padding-left: 1.5%;
+}
+
+.need-hero p {
+	font-family: FuturaNo2D,century gothic,arial,sans-serif;
+	font-weight: 700;
+	margin-top: 0;
+	padding-left: 2%;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+/* Heroes Gallery */
+
 .panel {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: auto;
-    margin-right: auto;
-	width: 80%;
+	margin-right: auto;
+	justify-content: center;
+	width: 100%;
 }
 
 .heroes {
@@ -119,7 +268,7 @@ footer {
 	border-top: 5px solid rgba(128, 128, 128, 0.6);
 }
 
-.buttonCompra {
+.buttonBuy {
 	background-color: rgb(236, 154, 21);
 	color: rgb(235, 235, 235);
 	font-size: 19px;
@@ -130,7 +279,7 @@ footer {
 	text-shadow: 0 0 3px #333;
 }
 
-.buttonCompra:hover {
+.buttonBuy:hover {
 	background-color: orange;
 	box-shadow: inset 0 0 12px #333;
 	font-size: 112%;
