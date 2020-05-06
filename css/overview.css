@@ -341,9 +341,6 @@ div .description p {
 	margin-left: 1em;
 }
 
-/*A Fazer*/
-/*Diminuir tamanho das imagens*/
-
 .hero-ability-image2 img {
 	width: 70%;
 	position: relative;
@@ -426,6 +423,18 @@ div .description p {
 
 .character img {
 	margin-left: 2em;
+}
+
+.character-ashe {
+	width: 30%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.character-ashe img {
+	margin-left: -14em;
 }
 
 /* Rodapé e derivados abaixo */
